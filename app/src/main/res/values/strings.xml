@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FootballQuiz</string>
+    <string-array name="question">
+        <item>How many points in a touchdown?@@5@@6@@3@@2</item>
+        <item>How many yards per down?@@20@@10@@5@@2</item>
+        <item>What side is a Quarterback on?@@Offense@@defense@@Special Teams@@1</item>
+        <item>What shape is a football?@@Square@@round@@oval@@3</item>
+    </string-array>
+</resources>
