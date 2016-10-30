@@ -23,6 +23,7 @@
             android:layout_height="match_parent"
             android:layout_below="@id/main"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,7 +31,8 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textAnswer"/>
+                android:id="@+id/textAnswer"
+                android:inputType="number"/>
 
             <TextView
                 android:layout_width="match_parent"
