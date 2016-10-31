@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
                 finished();
             }
         });
-
     }
 
     private void finished() {
@@ -70,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             if (!(cb1.isChecked() || cb4.isChecked() || cb6.isChecked()))
                 totalCorrect++;
 
-        if (textAnswer.equals("52"))
+        if (textAnswer.trim().equals("52"))
             totalCorrect = totalCorrect + 1;
 
         while (currCheck < totalQuestions) {
@@ -87,8 +86,6 @@ public class MainActivity extends AppCompatActivity {
             toastMessage = "Well you passed, but only "+totalCorrect+" correct.";
         else
             toastMessage = "Sorry, you did not pass only "+totalCorrect+" correct";
-
-
 
         Toast.makeText(getBaseContext(), toastMessage, Toast.LENGTH_SHORT).show();
     }
@@ -142,6 +139,4 @@ public class MainActivity extends AppCompatActivity {
         questionsLeft = questionsLeft - 1;
         currQuestion = currQuestion + 1;
     }
-
-
 }
